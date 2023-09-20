@@ -1,0 +1,81 @@
+ion-tab-bar[slot="bottom"] {
+    --background: #EA9010;
+  }
+
+  .imagen-nueva-top-left {
+    width: 300px; 
+    height: auto; 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    z-index: -1; 
+  
+  }
+
+  .imagen-nueva {
+    width: 400px; 
+    height: auto; 
+    position: absolute; 
+    bottom: 0; 
+    right: 0; 
+    z-index: -1; 
+  }    
+
+  .title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+  }
+  
+  .orange-title {
+    color: orange; 
+    font-size: 30px; 
+  }
+
+
+  .divider {
+    height: 2px;
+    background-color: orange;
+    width: 80%; /* Ancho de la línea, ajusta según lo desees */
+    margin: 0 auto; /* Centra la línea horizontalmente */
+  }
+
+  .bottom-tabs {
+    background-color: #EA9010; /* Cambia el color de fondo a naranja o el que prefieras */
+    color: white; /* Cambia el color del texto si es necesario */
+    text-align: center; /* Centra el contenido dentro del footer */
+    padding: 10px; /* Añade un poco de espacio interno para el contenido */
+    position: sticky; /* Hace que el footer se quede fijo en la parte inferior */
+    bottom: 0; /* Asegura que el footer esté en la parte inferior de la pantalla */
+  }
+  
+ 
+
+/* Estilos para la tarjeta contenedora */
+/* Estilos para la tarjeta contenedora */
+.centered-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente en el eje X */
+  justify-content: center; /* Centra verticalmente en el eje Y */
+  text-align: center; /* Centra el contenido horizontalmente */
+  height: 100vh; /* Asegura que la tarjeta ocupe el 100% de la altura de la pantalla */
+  max-width: 600px; /* Ancho máximo deseado */
+  margin: 0 auto; /* Centra horizontalmente la tarjeta contenedora */
+}
+
+
+/* Estilos para centrar el contenido en las tarjetas */
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centra horizontalmente en el eje X */
+  text-align: center; /* Centra el contenido horizontalmente */
+}
+.custom-back-button {
+  position: absolute;
+  left: 10px; /* Ajusta la posición izquierda según tus necesidades */
+  top: 10px; /* Ajusta la posición superior según tus necesidades */
+}
+

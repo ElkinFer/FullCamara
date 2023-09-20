@@ -1,0 +1,38 @@
+<ion-content [fullscreen]="true">
+  <img src="../../assets/icon/img2.jpg" class="imagen-nueva-top-left">
+  
+  
+  <div class="title-container">
+    <ion-back-button defaultHref="/homme" class="custom-back-button"></ion-back-button>
+    <h1 class="orange-title">FOTOS</h1>
+  </div>
+
+  
+  <div class="divider"></div>
+
+  
+  <ion-card class="centered-card">
+    <ion-card-content class="centered-content">
+      
+      <img alt="Captura/Imagen 1..." [src]="imageSource1" style="width: 400px;" />
+      {{ currentDate1 }}
+
+      
+      <img alt="Captura/ Imagen 2..." [src]="imageSource2" style="width: 400px;" />
+      {{ currentDate2 }}
+
+      
+      <img alt="Captura/Imagen 3..." [src]="imageSource3" style="width: 400px;" />
+      {{ currentDate3 }}
+    </ion-card-content>
+  </ion-card>
+
+  <img src="../../assets/icon/img3.jpg" class="imagen-nueva">
+</ion-content>
+
+
+<ion-footer class="bottom-tabs">
+  <ion-tab-button tab="camera" (click)="takePhoto()">
+    <ion-icon name="camera-outline"></ion-icon>
+  </ion-tab-button>
+</ion-footer>

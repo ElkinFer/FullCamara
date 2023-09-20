@@ -1,0 +1,72 @@
+<ion-content>
+  <img src="../../assets/icon/img2.jpg" class="imagen-nueva-top-left">
+  <div class="title-container">
+    <ion-back-button defaultHref="/login" class="custom-back-button"></ion-back-button>
+    <h1 class="orange-title">MENÚ</h1>
+  </div>
+  <div class="divider"></div>
+  <br>
+  <br>
+  <br>
+  <br>
+ 
+  <div class="card-container">
+    <div class="card">
+      <ion-card>
+        <ion-card-header class="custom-header">
+          <ion-icon name="id-card-outline" class="custom-icon"></ion-icon>
+        </ion-card-header>
+      
+        <ion-card-content>
+          <ion-button expand="full" [routerLink]="['/registro']" color="primary" class="register-button">Registro</ion-button>
+        </ion-card-content>
+      </ion-card>
+      
+      
+      
+    </div>
+
+    <div class="card">
+      <ion-card>
+        <ion-card-header class="custom-header2">
+          <ion-icon name="musical-notes-outline" class="icon"></ion-icon>
+        </ion-card-header>
+
+        <ion-card-content>
+          <ion-button expand="full" (click)="goToAudioPlayerPage()">MÚSICA</ion-button>
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </div>
+
+ 
+  <div class="card-container">
+    <div class="card">
+      <ion-card>
+        <ion-card-header class="custom-header3">
+          <ion-icon name="camera-outline" class="icon3"></ion-icon>
+        </ion-card-header>
+      
+        <ion-card-content>
+          <ion-button  expand="full" (click)="goToDashboardPage()">CÁMARA</ion-button>
+        </ion-card-content>
+      </ion-card>
+      
+    </div>
+
+    <div class="card">
+      <ion-card>
+        <ion-card-header class="custom-header4">
+          <ion-icon name="code-working-outline" class="icon4"></ion-icon>
+        </ion-card-header>
+
+        <ion-card-content>
+          <ion-button expand="full" (click)="goToListApiPage()">API</ion-button>
+        </ion-card-content>
+      </ion-card>
+    </div>
+      
+    
+  </div>
+  <img src="../../assets/icon/img3.jpg" class="imagen-nueva">
+</ion-content>
